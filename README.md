@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ARM Cross Compiler Toolchain and Bare-Metal Hello World
 
 Overview
@@ -79,3 +80,7 @@ Learning Outcomes
 Author
 
 Saksham Upadhyay
+=======
+# arm-toolchain
+cross compiler
+>>>>>>> 1be4e99bc0e1a6eda966af0ed90982ea63a8f88d
