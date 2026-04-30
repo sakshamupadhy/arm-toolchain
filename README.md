@@ -53,7 +53,7 @@ qemu-system-arm -M versatilepb -nographic -kernel hello.elf
 
 Output
 
-Hello Saksham!
+Hello rtems!
 
 ---
 
@@ -83,4 +83,3 @@ Saksham Upadhyay
 =======
 # arm-toolchain
 cross compiler
->>>>>>> 1be4e99bc0e1a6eda966af0ed90982ea63a8f88d
