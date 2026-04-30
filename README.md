@@ -75,6 +75,50 @@ Learning Outcomes
 - Low-level hardware interaction
 - Running ARM binaries on QEMU
 
+- # ARM Bare-Metal Toolchain and QEMU Execution
+
+This project demonstrates how to build an ARM cross-compilation toolchain from source and run a simple bare-metal program on QEMU.
+
+---
+
+## Overview
+
+- Built ARM cross compiler: `arm-none-eabi-gcc`
+- Built and integrated:
+  - binutils
+  - gcc
+  - newlib
+- Created a bare-metal program using:
+  - `startup.s`
+  - `linker.ld`
+  - `hello.c`
+- Compiled and executed on QEMU (versatilepb)
+
+- step1
+- CREATE WORKING DIRECTORY
+- mkdir arm-toolchain
+- cd arm-toolchain
+
+
+step2
+DOWNLOAD SOURCES
+STEP3
+build binutils
+STEP4
+build GCC
+
+---
+
+## Prerequisites
+
+Install required packages:
+
+```bash
+sudo apt update
+sudo apt install build-essential git wget \
+libgmp-dev libmpfr-dev libmpc-dev texinfo \
+libisl-dev qemu-system-arm
+
 ---
 
 Author
