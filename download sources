@@ -1,0 +1,7 @@
+wget https://ftp.gnu.org/gnu/binutils/binutils-2.42.tar.gz
+wget https://ftp.gnu.org/gnu/gcc/gcc-13.2.0/gcc-13.2.0.tar.gz
+wget https://sourceware.org/pub/newlib/newlib-4.4.0.20231231.tar.gz
+
+tar -xvf binutils-2.42.tar.gz
+tar -xvf gcc-13.2.0.tar.gz
+tar -xvf newlib-4.4.0.20231231.tar.gz
