@@ -1,0 +1,13 @@
+mkdir build-binutils
+cd build-binutils
+
+../binutils-2.42/configure \
+--target=arm-none-eabi \
+--prefix=$HOME/arm-toolchain/install \
+--disable-nls \
+--disable-werror
+
+make -j$(nproc)
+make install
+
+cd ..
