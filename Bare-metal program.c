@@ -9,5 +9,5 @@ void print(const char *str) {
 }
 
 void main() {
-    print("Hello Saksham!\n");
+    print("Hello rtems!\n");
 }
